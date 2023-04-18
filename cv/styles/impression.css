@@ -44,13 +44,13 @@ main{
     grid-template-columns: 40% 60%;
     grid-template-rows: 25% 75%;
 }
-main header{
+main .header{
     
     grid-column: span 2;
     display: grid;
     grid-template-columns: 40% 60%;  
 }
-main header>section{
+main .header>section{
     padding-right: 50px;
     align-self: center;
 }
@@ -203,3 +203,5 @@ p{
 
 #btn-print{display :none;}
   }
+
+header,footer{display:none;}

@@ -1,0 +1,33 @@
+:root{
+    --couleurfond:  #F2F2F2;
+ 
+}
+@font-face {
+    font-family:"font-reg" ;
+    src: url(../fonts/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: "font-bold";
+    src: url(../fonts/PlayfairDisplay-ExtraBold.ttf);
+}
+
+header{
+    height: 6vw;
+   background-color:var(--couleurfond);
+}
+
+.navbar {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+.navbar a{
+    text-decoration: none;
+    font-family: "font-bold", serif;
+    color: #000000;
+    
+}

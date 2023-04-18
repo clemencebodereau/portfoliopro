@@ -4,28 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/main.css">
     <link rel="stylesheet" href="./cv/styles/stylescv.css">
     <link rel="stylesheet" href="./cv/styles/mediascreen.css" media="screen and (max-width: 830px)">
     <link rel="stylesheet" type="text/css" href="./cv/styles/impression.css" media="print">
     <title>CV-Clémence Bodereau</title>
 </head>
-<body>
-<?php include_once './assets/header.php';?>
-   <main>
-    <section>
-    <h2>À propos</h2>
-        </div>
-            <p> Actuellement je suis une formation en developpement web & web mobile dans le but de parfaire mes compétences.
-            Mon souhait en tant que Designer Graphique est de mettre à profit mon univers ainsi que ma vision esthétique et humoristique.
-            Mes atouts sont ma persévérance, ma patience, mon sens de l’écoute et également mon enthousiasme présent à chaque futur projet.</p>
-    </section>
-
-    
-   
 <body class="cv">
     <?php include_once "assets/header.php"; ?>
     <main>
-        <header>
+        <div class="header">
             
             <div class="photo">
                 <img src="./cv/images/_MG_9596.jpg" alt="ma photo" height="100px">
@@ -48,7 +36,7 @@
             </article>
         </section>
    
-        </header>
+</div>
         
         <div class="section-gauche">
             <div class="gauche align-text">

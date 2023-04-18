@@ -1,5 +1,6 @@
+
 <header>
-    <div>
+    <div class="navbar">
         <a href="index.php">Accueil</a>
         <a href="apropos.php">À propos</a>
         <a href="portfolio.php">Portfolio</a>

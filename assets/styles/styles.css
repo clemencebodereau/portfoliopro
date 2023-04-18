@@ -1,0 +1,13 @@
+:root{
+    --couleurfond:  #F2F2F2;
+ 
+}
+@font-face {
+    font-family:"font-reg" ;
+    src: url(../fonts/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: "font-bold";
+    src: url(../fonts/PlayfairDisplay-ExtraBold.ttf);
+}
