@@ -31,3 +31,13 @@ header{
     color: #000000;
     
 }
+
+.footerformulaire{
+  background-color:var(--couleurfond);
+
+}
+
+button{
+    margin: 20px 0 20px 0;
+ 
+}
